@@ -1,0 +1,4 @@
+"prueba","regla","valor","pasa"
+"1 umbral y separación","en los 9 casos el IC90 de b excluye el 0 y b está en 0,30–0,70","b de 0.307 a 0.684; IC90 más bajo 0.173; 9 de 9 pasan",TRUE
+"2 represas (corte 1-mar-2000)","el IC90 de b después del corte excluye el 0","b después = 0.446 [0.065, 0.761]",TRUE
+"3 tendencia","el IC90 de b con tendencia excluye el 0 y b está en 0,30–0,70","b = 0.488 [0.284, 0.680]",TRUE

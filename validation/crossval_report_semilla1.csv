@@ -1,0 +1,807 @@
+"clave","campo","r","python","dif","tol","ok"
+"60 | principal | pot","n_eventos","43","43",0,0,TRUE
+"60 | principal | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"60 | principal | pot","b","0.420574","0.420574",-3.41027089900692e-08,0.02,TRUE
+"60 | principal | pot","d","0.130813","0.130812",5.2655028259796e-07,0.02,TRUE
+"60 | principal | pot","b_lo","0.0911381","0.0911381",-1.48876494465711e-10,0.05,TRUE
+"60 | principal | pot","b_hi","0.744709","0.744709",-3.88578058618805e-15,0.05,TRUE
+"60 | principal | pot","d_lo","-0.0871398","-0.0871398",-5.17794140897365e-13,0.05,TRUE
+"60 | principal | pot","d_hi","0.365436","0.365436",-1.47567347230648e-10,0.05,TRUE
+"60 | principal | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | principal | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | principal | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | principal | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | principal | pot","lodo_n","5","5",0,0,TRUE
+"60 | mas1m | pot","n_eventos","43","43",0,0,TRUE
+"60 | mas1m | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"60 | mas1m | pot","b","0.420574","0.420574",-3.41027089900692e-08,0.02,TRUE
+"60 | mas1m | pot","d","0.118973","0.118975",-2.22535672660118e-06,0.02,TRUE
+"60 | mas1m | pot","b_lo","0.0911381","0.0911381",-1.48876494465711e-10,0.05,TRUE
+"60 | mas1m | pot","b_hi","0.744709","0.744709",-3.88578058618805e-15,0.05,TRUE
+"60 | mas1m | pot","d_lo","-0.0570661","-0.0570661",-1.197430092581e-09,0.05,TRUE
+"60 | mas1m | pot","d_hi","0.308785","0.308785",1.23797083695365e-09,0.05,TRUE
+"60 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | mas1m | pot","lodo_n","4","4",0,0,TRUE
+"60 | ersstv6 | pot","n_eventos","43","43",0,0,TRUE
+"60 | ersstv6 | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"60 | ersstv6 | pot","b","0.427267","0.427267",-2.38442395827931e-08,0.02,TRUE
+"60 | ersstv6 | pot","d","0.128303","0.128304",-4.57749055687851e-07,0.02,TRUE
+"60 | ersstv6 | pot","b_lo","0.0485811","0.0485811",2.31759056390501e-15,0.05,TRUE
+"60 | ersstv6 | pot","b_hi","0.805796","0.805796",-1.22124532708767e-15,0.05,TRUE
+"60 | ersstv6 | pot","d_lo","-0.133385","-0.133385",3.34934857626479e-12,0.05,TRUE
+"60 | ersstv6 | pot","d_hi","0.387909","0.387909",1.29563026973756e-13,0.05,TRUE
+"60 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | ersstv6 | pot","lodo_n","5","5",0,0,TRUE
+"60 | x3 (exploratoria) | pot","n_eventos","43","43",0,0,TRUE
+"60 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"60 | x3 (exploratoria) | pot","b","0.442518","0.442518",-2.11630769575422e-08,0.02,TRUE
+"60 | x3 (exploratoria) | pot","d","0.114136","0.114135",6.162543120386e-07,0.02,TRUE
+"60 | x3 (exploratoria) | pot","b_lo","0.13639","0.13639",1.42607758935043e-10,0.05,TRUE
+"60 | x3 (exploratoria) | pot","b_hi","0.740984","0.740984",-9.99200722162641e-16,0.05,TRUE
+"60 | x3 (exploratoria) | pot","d_lo","-0.120017","-0.120017",1.92547464084036e-10,0.05,TRUE
+"60 | x3 (exploratoria) | pot","d_hi","0.34075","0.34075",-4.57648918761322e-11,0.05,TRUE
+"60 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | x3 (exploratoria) | pot","lodo_n","5","5",0,0,TRUE
+"60 | x12 (exploratoria) | pot","n_eventos","43","43",0,0,TRUE
+"60 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"60 | x12 (exploratoria) | pot","b","0.255483","0.255483",-3.25717319227259e-08,0.02,TRUE
+"60 | x12 (exploratoria) | pot","d","0.0981855","0.098185",5.81953516945455e-07,0.02,TRUE
+"60 | x12 (exploratoria) | pot","b_lo","-0.148919","-0.148919",-1.67315217236563e-10,0.05,TRUE
+"60 | x12 (exploratoria) | pot","b_hi","0.653245","0.653245",1.06925579501649e-10,0.05,TRUE
+"60 | x12 (exploratoria) | pot","d_lo","-0.20521","-0.20521",-7.63578089646444e-12,0.05,TRUE
+"60 | x12 (exploratoria) | pot","d_hi","0.340923","0.340923",2.90611423814369e-11,0.05,TRUE
+"60 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"60 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"60 | x12 (exploratoria) | pot","lodo_n","5","5",0,0,TRUE
+"61 | principal | gev","n_eventos","40","40",0,0,TRUE
+"61 | principal | gev","veredicto","control","control",NA,NA,TRUE
+"61 | principal | gev","mu1","0.425321","0.425323",-1.78059873040537e-06,0.05,TRUE
+"61 | principal | pot","n_eventos","84","84",0,0,TRUE
+"61 | principal | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"61 | principal | pot","b","0.628681","0.628681",1.57156569979833e-08,0.02,TRUE
+"61 | principal | pot","d","0.136847","0.136846",6.48406692838055e-07,0.02,TRUE
+"61 | principal | pot","b_lo","0.38024","0.38024",1.02140518265514e-14,0.05,TRUE
+"61 | principal | pot","b_hi","0.872512","0.872512",-8.54871728961371e-15,0.05,TRUE
+"61 | principal | pot","d_lo","-0.101941","-0.101941",-1.11380349387957e-12,0.05,TRUE
+"61 | principal | pot","d_hi","0.37769","0.37769",1.46460621408551e-12,0.05,TRUE
+"61 | principal | pot","b_boot_lo","0.398403","0.403834",-0.00543172194791147,0.05,TRUE
+"61 | principal | pot","b_boot_hi","0.826062","0.818537",0.00752422823917598,0.05,TRUE
+"61 | principal | pot","d_boot_lo","-0.032995","-0.0356233",0.00262831778779905,0.05,TRUE
+"61 | principal | pot","d_boot_hi","0.412429","0.362832",0.0495970492984621,0.05,TRUE
+"61 | principal | pot","lodo_n","5","5",0,0,TRUE
+"61 | mas1m | gev","n_eventos","40","40",0,0,TRUE
+"61 | mas1m | gev","veredicto","control","control",NA,NA,TRUE
+"61 | mas1m | gev","mu1","0.425325","0.425322",3.00279733445041e-06,0.05,TRUE
+"61 | mas1m | pot","n_eventos","84","84",0,0,TRUE
+"61 | mas1m | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"61 | mas1m | pot","b","0.628681","0.628681",1.57156569979833e-08,0.02,TRUE
+"61 | mas1m | pot","d","0.12524","0.12524",-1.37880858841477e-07,0.02,TRUE
+"61 | mas1m | pot","b_lo","0.38024","0.38024",1.02140518265514e-14,0.05,TRUE
+"61 | mas1m | pot","b_hi","0.872512","0.872512",-8.54871728961371e-15,0.05,TRUE
+"61 | mas1m | pot","d_lo","-0.0879158","-0.0879158",-2.04241304424535e-10,0.05,TRUE
+"61 | mas1m | pot","d_hi","0.325842","0.325842",4.17388346107828e-13,0.05,TRUE
+"61 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | mas1m | pot","lodo_n","4","4",0,0,TRUE
+"61 | ersstv6 | gev","n_eventos","40","40",0,0,TRUE
+"61 | ersstv6 | gev","veredicto","control","control",NA,NA,TRUE
+"61 | ersstv6 | gev","mu1","0.215087","0.21508",6.9248719538062e-06,0.05,TRUE
+"61 | ersstv6 | pot","n_eventos","84","84",0,0,TRUE
+"61 | ersstv6 | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"61 | ersstv6 | pot","b","0.686184","0.686184",-1.08283844113544e-08,0.02,TRUE
+"61 | ersstv6 | pot","d","0.140254","0.140255",-1.47039835185492e-06,0.02,TRUE
+"61 | ersstv6 | pot","b_lo","0.383421","0.383421",2.14562811962082e-11,0.05,TRUE
+"61 | ersstv6 | pot","b_hi","0.988749","0.988749",-1.75645054056872e-11,0.05,TRUE
+"61 | ersstv6 | pot","d_lo","-0.15469","-0.15469",-1.71783698377226e-11,0.05,TRUE
+"61 | ersstv6 | pot","d_hi","0.435361","0.435361",1.38382638681378e-11,0.05,TRUE
+"61 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | ersstv6 | pot","lodo_n","5","5",0,0,TRUE
+"61 | x3 (exploratoria) | gev","n_eventos","40","40",0,0,TRUE
+"61 | x3 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"61 | x3 (exploratoria) | gev","mu1","0.233097","0.233095",2.18963766221436e-06,0.05,TRUE
+"61 | x3 (exploratoria) | pot","n_eventos","84","84",0,0,TRUE
+"61 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"61 | x3 (exploratoria) | pot","b","0.583966","0.583966",-4.89273094261833e-08,0.02,TRUE
+"61 | x3 (exploratoria) | pot","d","0.0938485","0.0938491",-6.10142068702135e-07,0.02,TRUE
+"61 | x3 (exploratoria) | pot","b_lo","0.3534","0.3534",3.60822483003176e-15,0.05,TRUE
+"61 | x3 (exploratoria) | pot","b_hi","0.809371","0.809371",-4.88498130835069e-15,0.05,TRUE
+"61 | x3 (exploratoria) | pot","d_lo","-0.143454","-0.143454",9.29256671611256e-14,0.05,TRUE
+"61 | x3 (exploratoria) | pot","d_hi","0.338806","0.338806",1.040334485225e-12,0.05,TRUE
+"61 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | x3 (exploratoria) | pot","lodo_n","5","5",0,0,TRUE
+"61 | x12 (exploratoria) | gev","n_eventos","40","40",0,0,TRUE
+"61 | x12 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"61 | x12 (exploratoria) | gev","mu1","0.5116","0.5116",5.19515848784735e-07,0.05,TRUE
+"61 | x12 (exploratoria) | pot","n_eventos","84","84",0,0,TRUE
+"61 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"61 | x12 (exploratoria) | pot","b","0.574772","0.574772",-2.00004088846129e-08,0.02,TRUE
+"61 | x12 (exploratoria) | pot","d","0.108192","0.108193",-2.73769685962821e-07,0.02,TRUE
+"61 | x12 (exploratoria) | pot","b_lo","0.272306","0.272306",1.45621292801934e-11,0.05,TRUE
+"61 | x12 (exploratoria) | pot","b_hi","0.873902","0.873902",-1.66533453693773e-15,0.05,TRUE
+"61 | x12 (exploratoria) | pot","d_lo","-0.149721","-0.149721",-4.25215418431435e-13,0.05,TRUE
+"61 | x12 (exploratoria) | pot","d_hi","0.350251","0.350251",8.57092175010621e-14,0.05,TRUE
+"61 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"61 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"61 | x12 (exploratoria) | pot","lodo_n","5","5",0,0,TRUE
+"63 | principal | gev","n_eventos","28","28",0,0,TRUE
+"63 | principal | gev","veredicto","control","control",NA,NA,TRUE
+"63 | principal | gev","mu1","0.433136","0.43314",-4.17560251320115e-06,0.05,TRUE
+"63 | principal | pot","n_eventos","56","56",0,0,TRUE
+"63 | principal | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"63 | principal | pot","b","0.393037","0.393037",-5.87141824048842e-09,0.02,TRUE
+"63 | principal | pot","d","0.0872365","0.0872375",-1.01489541781685e-06,0.02,TRUE
+"63 | principal | pot","b_lo","0.0981413","0.0981413",-2.10206574369209e-11,0.05,TRUE
+"63 | principal | pot","b_hi","0.682046","0.682046",-8.33013658052550e-11,0.05,TRUE
+"63 | principal | pot","d_lo","-0.204404","-0.204404",-6.46077913390997e-11,0.05,TRUE
+"63 | principal | pot","d_hi","0.377482","0.377482",1.72362180084207e-10,0.05,TRUE
+"63 | principal | pot","b_boot_lo","0.0734582","0.0833725",-0.00991427886046627,0.05,TRUE
+"63 | principal | pot","b_boot_hi","0.648158","0.660374",-0.0122159038144606,0.05,TRUE
+"63 | principal | pot","d_boot_lo","-0.183276","-0.213975",0.0306995203153111,0.05,TRUE
+"63 | principal | pot","d_boot_hi","0.399215","0.399896",-0.000680351035144411,0.05,TRUE
+"63 | principal | pot","lodo_n","5","5",0,0,TRUE
+"63 | mas1m | gev","n_eventos","28","28",0,0,TRUE
+"63 | mas1m | gev","veredicto","control","control",NA,NA,TRUE
+"63 | mas1m | gev","mu1","0.433137","0.43314",-3.42880133491485e-06,0.05,TRUE
+"63 | mas1m | pot","n_eventos","56","56",0,0,TRUE
+"63 | mas1m | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"63 | mas1m | pot","b","0.393037","0.393037",-5.87141824048842e-09,0.02,TRUE
+"63 | mas1m | pot","d","0.0702744","0.0702754",-9.38761012425626e-07,0.02,TRUE
+"63 | mas1m | pot","b_lo","0.0981413","0.0981413",-2.10206574369209e-11,0.05,TRUE
+"63 | mas1m | pot","b_hi","0.682046","0.682046",-8.33013658052550e-11,0.05,TRUE
+"63 | mas1m | pot","d_lo","-0.158216","-0.158216",-1.70492175932679e-10,0.05,TRUE
+"63 | mas1m | pot","d_hi","0.3274","0.3274",5.08015851607979e-12,0.05,TRUE
+"63 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | mas1m | pot","lodo_n","4","4",0,0,TRUE
+"63 | ersstv6 | gev","n_eventos","28","28",0,0,TRUE
+"63 | ersstv6 | gev","veredicto","control","control",NA,NA,TRUE
+"63 | ersstv6 | gev","mu1","0.580322","0.580324",-2.12046651881792e-06,0.05,TRUE
+"63 | ersstv6 | pot","n_eventos","56","56",0,0,TRUE
+"63 | ersstv6 | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"63 | ersstv6 | pot","b","0.426644","0.426644",-9.05440106224731e-09,0.02,TRUE
+"63 | ersstv6 | pot","d","0.134405","0.134405",-2.47917228496375e-07,0.02,TRUE
+"63 | ersstv6 | pot","b_lo","0.0951278","0.0951278",-7.58074575335499e-11,0.05,TRUE
+"63 | ersstv6 | pot","b_hi","0.755256","0.755256",2.29818941654969e-10,0.05,TRUE
+"63 | ersstv6 | pot","d_lo","-0.18982","-0.18982",-2.48665504853918e-10,0.05,TRUE
+"63 | ersstv6 | pot","d_hi","0.451198","0.451198",-4.86993778636702e-12,0.05,TRUE
+"63 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | ersstv6 | pot","lodo_n","5","5",0,0,TRUE
+"63 | x3 (exploratoria) | gev","n_eventos","28","28",0,0,TRUE
+"63 | x3 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"63 | x3 (exploratoria) | gev","mu1","0.849422","0.849419",2.75847615260894e-06,0.05,TRUE
+"63 | x3 (exploratoria) | pot","n_eventos","56","56",0,0,TRUE
+"63 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"63 | x3 (exploratoria) | pot","b","0.437307","0.437307",2.8858130718401e-08,0.02,TRUE
+"63 | x3 (exploratoria) | pot","d","0.0982881","0.0982882",-1.08793845737809e-07,0.02,TRUE
+"63 | x3 (exploratoria) | pot","b_lo","0.170148","0.170148",-9.83077508287522e-11,0.05,TRUE
+"63 | x3 (exploratoria) | pot","b_hi","0.697346","0.697346",3.14750447927281e-11,0.05,TRUE
+"63 | x3 (exploratoria) | pot","d_lo","-0.169068","-0.169068",-2.06424766169278e-10,0.05,TRUE
+"63 | x3 (exploratoria) | pot","d_hi","0.359523","0.359523",-1.68531855138099e-12,0.05,TRUE
+"63 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | x3 (exploratoria) | pot","lodo_n","5","5",0,0,TRUE
+"63 | x12 (exploratoria) | gev","n_eventos","28","28",0,0,TRUE
+"63 | x12 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"63 | x12 (exploratoria) | gev","mu1","-0.0410823","-0.0410855",3.23722068185789e-06,0.05,TRUE
+"63 | x12 (exploratoria) | pot","n_eventos","56","56",0,0,TRUE
+"63 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"63 | x12 (exploratoria) | pot","b","0.253602","0.253602",1.14661741767996e-08,0.02,TRUE
+"63 | x12 (exploratoria) | pot","d","-0.0219648","-0.0219638",-1.00428340835818e-06,0.02,TRUE
+"63 | x12 (exploratoria) | pot","b_lo","-0.100671","-0.100671",-5.65784225026178e-11,0.05,TRUE
+"63 | x12 (exploratoria) | pot","b_hi","0.601625","0.601625",-1.9479295954028e-10,0.05,TRUE
+"63 | x12 (exploratoria) | pot","d_lo","-0.377607","-0.377607",-1.66028413239871e-10,0.05,TRUE
+"63 | x12 (exploratoria) | pot","d_hi","0.330122","0.330122",1.80139292371706e-10,0.05,TRUE
+"63 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | x12 (exploratoria) | pot","lodo_n","5","5",0,0,TRUE
+"63 | post_quiebre | pot","n_eventos","18","18",0,0,TRUE
+"63 | post_quiebre | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"63 | post_quiebre | pot","b","0.500193","0.500193",2.98401414688954e-08,0.02,TRUE
+"63 | post_quiebre | pot","d","0.14568","0.14568",-1.91601972510114e-07,0.02,TRUE
+"63 | post_quiebre | pot","b_lo","0.0421462","0.0421462",6.24500451351651e-17,0.05,TRUE
+"63 | post_quiebre | pot","b_hi","0.969033","0.969033",-3.1282754164863e-11,0.05,TRUE
+"63 | post_quiebre | pot","d_lo","-0.464652","-0.464652",-2.69734234947805e-12,0.05,TRUE
+"63 | post_quiebre | pot","d_hi","0.565817","0.565817",-2.32135421995849e-11,0.05,TRUE
+"63 | post_quiebre | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | post_quiebre | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | post_quiebre | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"63 | post_quiebre | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"63 | post_quiebre | pot","lodo_n","1","1",0,0,TRUE
+"64 | principal | pot","n_eventos","37","37",0,0,TRUE
+"64 | principal | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"64 | principal | pot","b","0.396461","0.396461",6.06234340505551e-10,0.02,TRUE
+"64 | principal | pot","d","0.211412","0.211412",6.46320958336277e-07,0.02,TRUE
+"64 | principal | pot","b_lo","0.0258633","0.0258633",-5.45372288995871e-11,0.05,TRUE
+"64 | principal | pot","b_hi","0.758562","0.758562",-2.22044604925031e-15,0.05,TRUE
+"64 | principal | pot","d_lo","-0.21546","-0.21546",6.9846628480974e-11,0.05,TRUE
+"64 | principal | pot","d_hi","0.695022","0.695022",2.80206968739094e-11,0.05,TRUE
+"64 | principal | pot","b_boot_lo","0.0764132","0.0601094",0.0163037999187676,0.05,TRUE
+"64 | principal | pot","b_boot_hi","0.676864","0.696233",-0.0193689353701311,0.05,TRUE
+"64 | principal | pot","d_boot_lo","-0.174317","-0.202667",0.0283498164104054,0.05,TRUE
+"64 | principal | pot","d_boot_hi","0.710799","0.64739",0.0634094612191843,0.05,FALSE
+"64 | principal | pot","lodo_n","3","3",0,0,TRUE
+"64 | mas1m | pot","n_eventos","37","37",0,0,TRUE
+"64 | mas1m | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"64 | mas1m | pot","b","0.396461","0.396461",6.06234340505551e-10,0.02,TRUE
+"64 | mas1m | pot","d","0.0649968","0.0649953",1.50942718755986e-06,0.02,TRUE
+"64 | mas1m | pot","b_lo","0.0258633","0.0258633",-5.45372288995871e-11,0.05,TRUE
+"64 | mas1m | pot","b_hi","0.758562","0.758562",-2.22044604925031e-15,0.05,TRUE
+"64 | mas1m | pot","d_lo","-0.30427","-0.30427",-1.82958259653532e-10,0.05,TRUE
+"64 | mas1m | pot","d_hi","0.458774","0.458774",-1.66623215225314e-10,0.05,TRUE
+"64 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | mas1m | pot","lodo_n","3","3",0,0,TRUE
+"64 | ersstv6 | pot","n_eventos","37","37",0,0,TRUE
+"64 | ersstv6 | pot","veredicto","no se gana su lugar","no se gana su lugar",NA,NA,TRUE
+"64 | ersstv6 | pot","b","0.427691","0.427691",3.59830232832259e-08,0.02,TRUE
+"64 | ersstv6 | pot","d","0.246658","0.246658",-1.80106980995909e-07,0.02,TRUE
+"64 | ersstv6 | pot","b_lo","0.00180795","0.00180795",2.88490654976048e-11,0.05,TRUE
+"64 | ersstv6 | pot","b_hi","0.850351","0.850351",-3.88544751928066e-12,0.05,TRUE
+"64 | ersstv6 | pot","d_lo","-0.224674","-0.224674",1.08945963361862e-10,0.05,TRUE
+"64 | ersstv6 | pot","d_hi","0.782321","0.782321",7.8159700933611e-14,0.05,TRUE
+"64 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | ersstv6 | pot","lodo_n","3","3",0,0,TRUE
+"64 | x3 (exploratoria) | pot","n_eventos","37","37",0,0,TRUE
+"64 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"64 | x3 (exploratoria) | pot","b","0.433987","0.433987",2.16938019215185e-08,0.02,TRUE
+"64 | x3 (exploratoria) | pot","d","0.225897","0.225897",2.15391588342939e-07,0.02,TRUE
+"64 | x3 (exploratoria) | pot","b_lo","0.0990583","0.0990583",-9.71990543607859e-12,0.05,TRUE
+"64 | x3 (exploratoria) | pot","b_hi","0.757763","0.757763",-2.1094237467878e-15,0.05,TRUE
+"64 | x3 (exploratoria) | pot","d_lo","-0.170102","-0.170102",-1.27398092075737e-14,0.05,TRUE
+"64 | x3 (exploratoria) | pot","d_hi","0.670506","0.670506",4.36257696634357e-11,0.05,TRUE
+"64 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | x3 (exploratoria) | pot","lodo_n","3","3",0,0,TRUE
+"64 | x12 (exploratoria) | pot","n_eventos","37","37",0,0,TRUE
+"64 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"64 | x12 (exploratoria) | pot","b","0.132863","0.132863",1.64942926261791e-08,0.02,TRUE
+"64 | x12 (exploratoria) | pot","d","0.117287","0.117288",-8.50842800617646e-07,0.02,TRUE
+"64 | x12 (exploratoria) | pot","b_lo","-0.312549","-0.312549",-8.42879654960882e-11,0.05,TRUE
+"64 | x12 (exploratoria) | pot","b_hi","0.569514","0.569514",-2.37943331704571e-10,0.05,TRUE
+"64 | x12 (exploratoria) | pot","d_lo","-0.351245","-0.351245",2.55204191113023e-11,0.05,TRUE
+"64 | x12 (exploratoria) | pot","d_hi","0.670595","0.670595",-9.30777677154992e-12,0.05,TRUE
+"64 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | x12 (exploratoria) | pot","lodo_n","3","3",0,0,TRUE
+"64 | post_quiebre | pot","n_eventos","9","9",0,0,TRUE
+"64 | post_quiebre | pot","veredicto","menos de 15 eventos: no se ajusta","menos de 15 eventos: no se ajusta",NA,NA,TRUE
+"64 | post_quiebre | pot","b",NA,NA,NA,0.02,TRUE
+"64 | post_quiebre | pot","d",NA,NA,NA,0.02,TRUE
+"64 | post_quiebre | pot","b_lo",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","b_hi",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","d_lo",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","d_hi",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"64 | post_quiebre | pot","lodo_n",NA,NA,NA,0,TRUE
+"65 | principal | gev","n_eventos","96","96",0,0,TRUE
+"65 | principal | gev","veredicto","control","control",NA,NA,TRUE
+"65 | principal | gev","mu1","0.631639","0.63164",-1.34602634227488e-06,0.05,TRUE
+"65 | principal | pot","n_eventos","179","179",0,0,TRUE
+"65 | principal | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"65 | principal | pot","b","0.487291","0.487291",-2.01267447152986e-10,0.02,TRUE
+"65 | principal | pot","d","0.154603","0.154603",6.11975794345687e-07,0.02,TRUE
+"65 | principal | pot","b_lo","0.294627","0.294627",2.99760216648792e-15,0.05,TRUE
+"65 | principal | pot","b_hi","0.676187","0.676187",-3.10862446895044e-15,0.05,TRUE
+"65 | principal | pot","d_lo","-0.0072088","-0.0072088",3.85409759662281e-12,0.05,TRUE
+"65 | principal | pot","d_hi","0.322271","0.322271",3.76476627650391e-13,0.05,TRUE
+"65 | principal | pot","b_boot_lo","0.270692","0.284536",-0.0138432809928067,0.05,TRUE
+"65 | principal | pot","b_boot_hi","0.688518","0.694019",-0.00550058217445748,0.05,TRUE
+"65 | principal | pot","d_boot_lo","0.0355575","0.0515249",-0.0159673933030188,0.05,TRUE
+"65 | principal | pot","d_boot_hi","0.27859","0.293088",-0.014497723202741,0.05,TRUE
+"65 | principal | pot","lodo_n","11","11",0,0,TRUE
+"65 | mas1m | gev","n_eventos","96","96",0,0,TRUE
+"65 | mas1m | gev","veredicto","control","control",NA,NA,TRUE
+"65 | mas1m | gev","mu1","0.63164","0.63164",-4.00956323365342e-07,0.05,TRUE
+"65 | mas1m | pot","n_eventos","179","179",0,0,TRUE
+"65 | mas1m | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"65 | mas1m | pot","b","0.487291","0.487291",-2.01267447152986e-10,0.02,TRUE
+"65 | mas1m | pot","d","0.10312","0.10312",-3.02811441477147e-08,0.02,TRUE
+"65 | mas1m | pot","b_lo","0.294627","0.294627",2.99760216648792e-15,0.05,TRUE
+"65 | mas1m | pot","b_hi","0.676187","0.676187",-3.10862446895044e-15,0.05,TRUE
+"65 | mas1m | pot","d_lo","-0.0201713","-0.0201713",5.89054985344895e-11,0.05,TRUE
+"65 | mas1m | pot","d_hi","0.245589","0.245589",1.23393656403792e-10,0.05,TRUE
+"65 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | mas1m | pot","lodo_n","10","10",0,0,TRUE
+"65 | ersstv6 | gev","n_eventos","72","72",0,0,TRUE
+"65 | ersstv6 | gev","veredicto","control","control",NA,NA,TRUE
+"65 | ersstv6 | gev","mu1","0.639577","0.639575",1.8141801091387e-06,0.05,TRUE
+"65 | ersstv6 | pot","n_eventos","146","146",0,0,TRUE
+"65 | ersstv6 | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"65 | ersstv6 | pot","b","0.541428","0.541428",-1.15430243141645e-09,0.02,TRUE
+"65 | ersstv6 | pot","d","0.210485","0.210485",6.51046752758733e-07,0.02,TRUE
+"65 | ersstv6 | pot","b_lo","0.311986","0.311986",3.83026943495679e-15,0.05,TRUE
+"65 | ersstv6 | pot","b_hi","0.769893","0.769893",-4.55191440096314e-15,0.05,TRUE
+"65 | ersstv6 | pot","d_lo","0.00885998","0.00885998",1.16779849679283e-12,0.05,TRUE
+"65 | ersstv6 | pot","d_hi","0.414341","0.414341",-6.1764482417459e-12,0.05,TRUE
+"65 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | ersstv6 | pot","lodo_n","9","9",0,0,TRUE
+"65 | x3 (exploratoria) | gev","n_eventos","96","96",0,0,TRUE
+"65 | x3 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"65 | x3 (exploratoria) | gev","mu1","0.718906","0.718905",3.90142093187329e-07,0.05,TRUE
+"65 | x3 (exploratoria) | pot","n_eventos","179","179",0,0,TRUE
+"65 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"65 | x3 (exploratoria) | pot","b","0.457161","0.457161",6.96220198159736e-09,0.02,TRUE
+"65 | x3 (exploratoria) | pot","d","0.1545","0.1545",-3.7597151178459e-07,0.02,TRUE
+"65 | x3 (exploratoria) | pot","b_lo","0.278576","0.278576",-2.17625917287023e-12,0.05,TRUE
+"65 | x3 (exploratoria) | pot","b_hi","0.631675","0.631675",-5.44009282066327e-15,0.05,TRUE
+"65 | x3 (exploratoria) | pot","d_lo","-0.00125851","-0.00125851",2.37667632969896e-12,0.05,TRUE
+"65 | x3 (exploratoria) | pot","d_hi","0.311734","0.311734",-1.59444679681542e-12,0.05,TRUE
+"65 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | x3 (exploratoria) | pot","lodo_n","11","11",0,0,TRUE
+"65 | x12 (exploratoria) | gev","n_eventos","96","96",0,0,TRUE
+"65 | x12 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"65 | x12 (exploratoria) | gev","mu1","0.373794","0.373792",2.50983798921744e-06,0.05,TRUE
+"65 | x12 (exploratoria) | pot","n_eventos","179","179",0,0,TRUE
+"65 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"65 | x12 (exploratoria) | pot","b","0.434367","0.434367",-2.60956198872009e-08,0.02,TRUE
+"65 | x12 (exploratoria) | pot","d","0.097072","0.0970721",-1.24896338923874e-07,0.02,TRUE
+"65 | x12 (exploratoria) | pot","b_lo","0.200715","0.200715",1.0547118733939e-15,0.05,TRUE
+"65 | x12 (exploratoria) | pot","b_hi","0.665247","0.665247",-3.33066907387547e-16,0.05,TRUE
+"65 | x12 (exploratoria) | pot","d_lo","-0.0801856","-0.0801856",-2.52681625623197e-11,0.05,TRUE
+"65 | x12 (exploratoria) | pot","d_hi","0.279918","0.279918",-1.36637090530911e-10,0.05,TRUE
+"65 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | x12 (exploratoria) | pot","lodo_n","11","11",0,0,TRUE
+"65 | post_quiebre | gev","n_eventos","57","57",0,0,TRUE
+"65 | post_quiebre | gev","veredicto","control","control",NA,NA,TRUE
+"65 | post_quiebre | gev","mu1","0.466022","0.466022",8.09610351426571e-07,0.05,TRUE
+"65 | post_quiebre | pot","n_eventos","126","126",0,0,TRUE
+"65 | post_quiebre | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"65 | post_quiebre | pot","b","0.505717","0.505717",-2.45918296837289e-08,0.02,TRUE
+"65 | post_quiebre | pot","d","0.181722","0.181722",2.92209830776713e-07,0.02,TRUE
+"65 | post_quiebre | pot","b_lo","0.298929","0.298929",4.16333634234434e-15,0.05,TRUE
+"65 | post_quiebre | pot","b_hi","0.709443","0.709443",-1.00408570347099e-12,0.05,TRUE
+"65 | post_quiebre | pot","d_lo","-0.00999767","-0.00999767",2.12942163901886e-12,0.05,TRUE
+"65 | post_quiebre | pot","d_hi","0.379879","0.379879",-2.09082751112533e-12,0.05,TRUE
+"65 | post_quiebre | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | post_quiebre | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | post_quiebre | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"65 | post_quiebre | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"65 | post_quiebre | pot","lodo_n","7","7",0,0,TRUE
+"67 | principal | gev","n_eventos","94","94",0,0,TRUE
+"67 | principal | gev","veredicto","control","control",NA,NA,TRUE
+"67 | principal | gev","mu1","1.05846","1.05847",-6.64368284963857e-06,0.05,TRUE
+"67 | principal | pot","n_eventos","132","132",0,0,TRUE
+"67 | principal | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"67 | principal | pot","b","0.584606","0.584606",1.07507411861718e-08,0.02,TRUE
+"67 | principal | pot","d","0.177683","0.177682",6.00411168116821e-07,0.02,TRUE
+"67 | principal | pot","b_lo","0.369605","0.369605",-1.00939978597836e-10,0.05,TRUE
+"67 | principal | pot","b_hi","0.795026","0.795026",-9.54791801177635e-15,0.05,TRUE
+"67 | principal | pot","d_lo","-0.0239528","-0.0239528",1.21905957550794e-12,0.05,TRUE
+"67 | principal | pot","d_hi","0.378907","0.378907",8.57092175010621e-14,0.05,TRUE
+"67 | principal | pot","b_boot_lo","0.354626","0.323226",0.0314003871061724,0.05,TRUE
+"67 | principal | pot","b_boot_hi","0.829643","0.790331",0.0393119411044763,0.05,TRUE
+"67 | principal | pot","d_boot_lo","0.0382863","0.0423028",-0.00401648935016466,0.05,TRUE
+"67 | principal | pot","d_boot_hi","0.302083","0.320526",-0.0184428648327624,0.05,TRUE
+"67 | principal | pot","lodo_n","10","10",0,0,TRUE
+"67 | mas1m | gev","n_eventos","94","94",0,0,TRUE
+"67 | mas1m | gev","veredicto","control","control",NA,NA,TRUE
+"67 | mas1m | gev","mu1","1.05847","1.05847",1.23427141263122e-06,0.05,TRUE
+"67 | mas1m | pot","n_eventos","132","132",0,0,TRUE
+"67 | mas1m | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"67 | mas1m | pot","b","0.584606","0.584606",1.07507411861718e-08,0.02,TRUE
+"67 | mas1m | pot","d","0.156903","0.156903",-6.30994639871929e-09,0.02,TRUE
+"67 | mas1m | pot","b_lo","0.369605","0.369605",-1.00939978597836e-10,0.05,TRUE
+"67 | mas1m | pot","b_hi","0.795026","0.795026",-9.54791801177635e-15,0.05,TRUE
+"67 | mas1m | pot","d_lo","-0.00757903","-0.00757903",-2.39500259902048e-13,0.05,TRUE
+"67 | mas1m | pot","d_hi","0.327644","0.327644",5.08959541178911e-12,0.05,TRUE
+"67 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | mas1m | pot","lodo_n","9","9",0,0,TRUE
+"67 | ersstv6 | gev","n_eventos","77","77",0,0,TRUE
+"67 | ersstv6 | gev","veredicto","control","control",NA,NA,TRUE
+"67 | ersstv6 | gev","mu1","1.30918","1.30917",6.78027852618612e-06,0.05,TRUE
+"67 | ersstv6 | pot","n_eventos","123","123",0,0,TRUE
+"67 | ersstv6 | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"67 | ersstv6 | pot","b","0.635774","0.635774",2.42404999406531e-08,0.02,TRUE
+"67 | ersstv6 | pot","d","0.226075","0.226076",-8.58278112886302e-07,0.02,TRUE
+"67 | ersstv6 | pot","b_lo","0.389807","0.389807",1.11022302462516e-14,0.05,TRUE
+"67 | ersstv6 | pot","b_hi","0.880732","0.880732",-1.14352971536391e-14,0.05,TRUE
+"67 | ersstv6 | pot","d_lo","-0.0153753","-0.0153753",4.44403194799214e-13,0.05,TRUE
+"67 | ersstv6 | pot","d_hi","0.464991","0.464991",-7.92532706128668e-13,0.05,TRUE
+"67 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | ersstv6 | pot","lodo_n","8","8",0,0,TRUE
+"67 | x3 (exploratoria) | gev","n_eventos","94","94",0,0,TRUE
+"67 | x3 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"67 | x3 (exploratoria) | gev","mu1","1.13003","1.13003",-2.33687070849697e-06,0.05,TRUE
+"67 | x3 (exploratoria) | pot","n_eventos","132","132",0,0,TRUE
+"67 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"67 | x3 (exploratoria) | pot","b","0.547938","0.547938",2.20805909112443e-08,0.02,TRUE
+"67 | x3 (exploratoria) | pot","d","0.192603","0.192603",-7.13714344291461e-08,0.02,TRUE
+"67 | x3 (exploratoria) | pot","b_lo","0.348007","0.348007",2.27595720048157e-15,0.05,TRUE
+"67 | x3 (exploratoria) | pot","b_hi","0.742749","0.742749",-8.88178419700125e-16,0.05,TRUE
+"67 | x3 (exploratoria) | pot","d_lo","0.000546598","0.000546598",-1.08229397666193e-13,0.05,TRUE
+"67 | x3 (exploratoria) | pot","d_hi","0.386417","0.386417",1.17345022587756e-12,0.05,TRUE
+"67 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | x3 (exploratoria) | pot","lodo_n","10","10",0,0,TRUE
+"67 | x12 (exploratoria) | gev","n_eventos","94","94",0,0,TRUE
+"67 | x12 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"67 | x12 (exploratoria) | gev","mu1","0.565679","0.565679",-6.19156597325698e-07,0.05,TRUE
+"67 | x12 (exploratoria) | pot","n_eventos","132","132",0,0,TRUE
+"67 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"67 | x12 (exploratoria) | pot","b","0.518923","0.518923",-6.06909137390588e-08,0.02,TRUE
+"67 | x12 (exploratoria) | pot","d","0.0788586","0.0788581",5.32326557306506e-07,0.02,TRUE
+"67 | x12 (exploratoria) | pot","b_lo","0.255872","0.255872",5.22170640060438e-11,0.05,TRUE
+"67 | x12 (exploratoria) | pot","b_hi","0.778604","0.778604",-7.88258347483861e-15,0.05,TRUE
+"67 | x12 (exploratoria) | pot","d_lo","-0.146141","-0.146141",2.26194479813202e-10,0.05,TRUE
+"67 | x12 (exploratoria) | pot","d_hi","0.294644","0.294644",4.63160620967074e-11,0.05,TRUE
+"67 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | x12 (exploratoria) | pot","lodo_n","10","10",0,0,TRUE
+"67 | post_quiebre | gev","n_eventos","60","60",0,0,TRUE
+"67 | post_quiebre | gev","veredicto","control","control",NA,NA,TRUE
+"67 | post_quiebre | gev","mu1","0.744904","0.744904",-6.30769366738448e-08,0.05,TRUE
+"67 | post_quiebre | pot","n_eventos","113","113",0,0,TRUE
+"67 | post_quiebre | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"67 | post_quiebre | pot","b","0.471874","0.471874",2.94804224365564e-08,0.02,TRUE
+"67 | post_quiebre | pot","d","0.203285","0.203286",-1.46662859146218e-06,0.02,TRUE
+"67 | post_quiebre | pot","b_lo","0.253865","0.253865",-3.00753866255832e-12,0.05,TRUE
+"67 | post_quiebre | pot","b_hi","0.686393","0.686393",1.80000681027082e-10,0.05,TRUE
+"67 | post_quiebre | pot","d_lo","-0.0122626","-0.0122626",-5.88445715765662e-11,0.05,TRUE
+"67 | post_quiebre | pot","d_hi","0.421723","0.421723",3.7356229221075e-12,0.05,TRUE
+"67 | post_quiebre | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | post_quiebre | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | post_quiebre | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"67 | post_quiebre | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"67 | post_quiebre | pot","lodo_n","7","7",0,0,TRUE
+"68 | principal | gev","n_eventos","111","111",0,0,TRUE
+"68 | principal | gev","veredicto","control","control",NA,NA,TRUE
+"68 | principal | gev","mu1","0.793531","0.793532",-3.10920307278195e-07,0.05,TRUE
+"68 | principal | pot","n_eventos","126","126",0,0,TRUE
+"68 | principal | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"68 | principal | pot","b","0.559127","0.559127",-4.77464902060021e-08,0.02,TRUE
+"68 | principal | pot","d","0.138699","0.138699",-1.71501478629654e-07,0.02,TRUE
+"68 | principal | pot","b_lo","0.330769","0.330769",6.0507154842071e-15,0.05,TRUE
+"68 | principal | pot","b_hi","0.782011","0.782011",-1.24981469618035e-10,0.05,TRUE
+"68 | principal | pot","d_lo","-0.0644496","-0.0644496",1.11387288281861e-12,0.05,TRUE
+"68 | principal | pot","d_hi","0.350744","0.350744",-1.19500631612368e-10,0.05,TRUE
+"68 | principal | pot","b_boot_lo","0.337628","0.337793",-0.000165066914782186,0.05,TRUE
+"68 | principal | pot","b_boot_hi","0.773419","0.77715",-0.0037313991728315,0.05,TRUE
+"68 | principal | pot","d_boot_lo","-0.00751369","-0.0285479",0.0210341985892266,0.05,TRUE
+"68 | principal | pot","d_boot_hi","0.284116","0.287769",-0.0036529679289295,0.05,TRUE
+"68 | principal | pot","lodo_n","12","12",0,0,TRUE
+"68 | mas1m | gev","n_eventos","111","111",0,0,TRUE
+"68 | mas1m | gev","veredicto","control","control",NA,NA,TRUE
+"68 | mas1m | gev","mu1","0.793531","0.793532",-6.71662824025532e-07,0.05,TRUE
+"68 | mas1m | pot","n_eventos","126","126",0,0,TRUE
+"68 | mas1m | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"68 | mas1m | pot","b","0.559127","0.559127",-4.77464902060021e-08,0.02,TRUE
+"68 | mas1m | pot","d","0.0904771","0.0904765",6.14488291111881e-07,0.02,TRUE
+"68 | mas1m | pot","b_lo","0.330769","0.330769",6.0507154842071e-15,0.05,TRUE
+"68 | mas1m | pot","b_hi","0.782011","0.782011",-1.24981469618035e-10,0.05,TRUE
+"68 | mas1m | pot","d_lo","-0.0514496","-0.0514496",-1.07099495938456e-10,0.05,TRUE
+"68 | mas1m | pot","d_hi","0.273555","0.273555",-1.78710601872467e-10,0.05,TRUE
+"68 | mas1m | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | mas1m | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | mas1m | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | mas1m | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | mas1m | pot","lodo_n","11","11",0,0,TRUE
+"68 | ersstv6 | gev","n_eventos","72","72",0,0,TRUE
+"68 | ersstv6 | gev","veredicto","control","control",NA,NA,TRUE
+"68 | ersstv6 | gev","mu1","0.902089","0.902091",-2.04316706797769e-06,0.05,TRUE
+"68 | ersstv6 | pot","n_eventos","85","85",0,0,TRUE
+"68 | ersstv6 | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"68 | ersstv6 | pot","b","0.718436","0.718436",7.41481120947185e-09,0.02,TRUE
+"68 | ersstv6 | pot","d","0.206573","0.206574",-8.71076991593167e-07,0.02,TRUE
+"68 | ersstv6 | pot","b_lo","0.428045","0.428045",-2.30743091300667e-10,0.05,TRUE
+"68 | ersstv6 | pot","b_hi","1.00681","1.00681",-2.43198794436239e-11,0.05,TRUE
+"68 | ersstv6 | pot","d_lo","-0.08149","-0.08149",1.87782400740133e-10,0.05,TRUE
+"68 | ersstv6 | pot","d_hi","0.490071","0.490071",6.95388191473967e-13,0.05,TRUE
+"68 | ersstv6 | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | ersstv6 | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | ersstv6 | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | ersstv6 | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | ersstv6 | pot","lodo_n","8","8",0,0,TRUE
+"68 | x3 (exploratoria) | gev","n_eventos","111","111",0,0,TRUE
+"68 | x3 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"68 | x3 (exploratoria) | gev","mu1","0.928866","0.928865",7.44171991917675e-07,0.05,TRUE
+"68 | x3 (exploratoria) | pot","n_eventos","126","126",0,0,TRUE
+"68 | x3 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"68 | x3 (exploratoria) | pot","b","0.555932","0.555932",1.59277330213925e-08,0.02,TRUE
+"68 | x3 (exploratoria) | pot","d","0.142875","0.142874",1.25058569444558e-07,0.02,TRUE
+"68 | x3 (exploratoria) | pot","b_lo","0.345061","0.345061",2.33146835171283e-15,0.05,TRUE
+"68 | x3 (exploratoria) | pot","b_hi","0.761002","0.761002",-1.00353059195868e-12,0.05,TRUE
+"68 | x3 (exploratoria) | pot","d_lo","-0.06211","-0.06211",1.21545828957181e-12,0.05,TRUE
+"68 | x3 (exploratoria) | pot","d_hi","0.354388","0.354388",1.17611476113666e-12,0.05,TRUE
+"68 | x3 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | x3 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | x3 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | x3 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | x3 (exploratoria) | pot","lodo_n","12","12",0,0,TRUE
+"68 | x12 (exploratoria) | gev","n_eventos","111","111",0,0,TRUE
+"68 | x12 (exploratoria) | gev","veredicto","control","control",NA,NA,TRUE
+"68 | x12 (exploratoria) | gev","mu1","0.476323","0.476319",3.98285668895548e-06,0.05,TRUE
+"68 | x12 (exploratoria) | pot","n_eventos","126","126",0,0,TRUE
+"68 | x12 (exploratoria) | pot","veredicto",NA,"",NA,NA,TRUE
+"68 | x12 (exploratoria) | pot","b","0.432286","0.432286",5.55715202188445e-08,0.02,TRUE
+"68 | x12 (exploratoria) | pot","d","0.10513","0.105129",8.66762140200317e-07,0.02,TRUE
+"68 | x12 (exploratoria) | pot","b_lo","0.154357","0.154357",6.96664947952286e-15,0.05,TRUE
+"68 | x12 (exploratoria) | pot","b_hi","0.705908","0.705908",-5.88418203051333e-15,0.05,TRUE
+"68 | x12 (exploratoria) | pot","d_lo","-0.109832","-0.109832",-7.19511117353022e-11,0.05,TRUE
+"68 | x12 (exploratoria) | pot","d_hi","0.33555","0.33555",1.55420121217276e-12,0.05,TRUE
+"68 | x12 (exploratoria) | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | x12 (exploratoria) | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | x12 (exploratoria) | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | x12 (exploratoria) | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | x12 (exploratoria) | pot","lodo_n","12","12",0,0,TRUE
+"68 | post_quiebre | gev","n_eventos","55","55",0,0,TRUE
+"68 | post_quiebre | gev","veredicto","control","control",NA,NA,TRUE
+"68 | post_quiebre | gev","mu1","0.74819","0.748188",1.28530319787323e-06,0.05,TRUE
+"68 | post_quiebre | pot","n_eventos","69","69",0,0,TRUE
+"68 | post_quiebre | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"68 | post_quiebre | pot","b","0.6566","0.6566",1.28004813415572e-08,0.02,TRUE
+"68 | post_quiebre | pot","d","0.168157","0.168157",5.49574626640403e-08,0.02,TRUE
+"68 | post_quiebre | pot","b_lo","0.389233","0.389233",-2.73581157728131e-11,0.05,TRUE
+"68 | post_quiebre | pot","b_hi","0.920149","0.920149",-9.00804986159187e-11,0.05,TRUE
+"68 | post_quiebre | pot","d_lo","-0.110292","-0.110292",3.79044018394836e-13,0.05,TRUE
+"68 | post_quiebre | pot","d_hi","0.462763","0.462763",1.27874377753301e-11,0.05,TRUE
+"68 | post_quiebre | pot","b_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | post_quiebre | pot","b_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | post_quiebre | pot","d_boot_lo",NA,NA,NA,0.05,TRUE
+"68 | post_quiebre | pot","d_boot_hi",NA,NA,NA,0.05,TRUE
+"68 | post_quiebre | pot","lodo_n","7","7",0,0,TRUE
+"uruguay_conjunto | principal | pot","n_eventos","657","657",0,0,TRUE
+"uruguay_conjunto | principal | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"uruguay_conjunto | principal | pot","b","0.517028","0.517027",8.86297259472535e-07,0.02,TRUE
+"uruguay_conjunto | principal | pot","d","0.145612","0.145618",-6.32018250698585e-06,0.02,TRUE
+"uruguay_conjunto | principal | pot","b_lo",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | principal | pot","b_hi",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | principal | pot","d_lo",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | principal | pot","d_hi",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | principal | pot","b_boot_lo","0.316756","0.28894",0.0278163590245998,0.05,TRUE
+"uruguay_conjunto | principal | pot","b_boot_hi","0.707227","0.712345",-0.00511795817926375,0.05,TRUE
+"uruguay_conjunto | principal | pot","d_boot_lo","-0.00786293","0.012211",-0.0200739526566158,0.05,TRUE
+"uruguay_conjunto | principal | pot","d_boot_hi","0.285637","0.295513",-0.00987563347726733,0.05,TRUE
+"uruguay_conjunto | principal | pot","lodo_n",NA,NA,NA,0,TRUE
+"uruguay_conjunto | mas1m | pot","n_eventos","657","657",0,0,TRUE
+"uruguay_conjunto | mas1m | pot","veredicto","se gana su lugar","se gana su lugar",NA,NA,TRUE
+"uruguay_conjunto | mas1m | pot","b","0.517028","0.517027",8.86297259472535e-07,0.02,TRUE
+"uruguay_conjunto | mas1m | pot","d","0.111958","0.114279",-0.00232056284761828,0.02,TRUE
+"uruguay_conjunto | mas1m | pot","b_lo",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","b_hi",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","d_lo",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","d_hi",NA,NA,NA,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","b_boot_lo","0.331862","0.292408",0.0394535105705278,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","b_boot_hi","0.712584","0.695142",0.0174421484974533,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","d_boot_lo","0.00500586","0.0177415",-0.0127356594507163,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","d_boot_hi","0.204036","0.236043",-0.0320075463650244,0.05,TRUE
+"uruguay_conjunto | mas1m | pot","lodo_n",NA,NA,NA,0,TRUE
+"61 | alerta | Niña (x = −1)","p","0.303157","0.303157",-2.83494942743268e-07,0.02,TRUE
+"61 | alerta | Niña (x = −1)","p_estacionario","0.617906","0.617906",-2.32599488114715e-07,0.02,TRUE
+"61 | alerta | Niña (x = −1)","p_lo","0.144027","0.148806",-0.00477916414880616,0.04,TRUE
+"61 | alerta | Niña (x = −1)","p_hi","0.449439","0.440319",0.00912016155386047,0.04,TRUE
+"61 | alerta | neutro (x = 0)","p","0.534198","0.534198",-1.449936493092e-07,0.02,TRUE
+"61 | alerta | neutro (x = 0)","p_estacionario","0.617906","0.617906",-2.32599488114715e-07,0.02,TRUE
+"61 | alerta | neutro (x = 0)","p_lo","0.388391","0.386172",0.00221904430725561,0.04,TRUE
+"61 | alerta | neutro (x = 0)","p_hi","0.646384","0.634513",0.011870901560577,0.04,TRUE
+"61 | alerta | Niño (x = +1,5)","p","0.897857","0.897857",8.27918235080105e-08,0.02,TRUE
+"61 | alerta | Niño (x = +1,5)","p_estacionario","0.617906","0.617906",-2.32599488114715e-07,0.02,TRUE
+"61 | alerta | Niño (x = +1,5)","p_lo","0.798343","0.785119",0.0132244308806198,0.04,TRUE
+"61 | alerta | Niño (x = +1,5)","p_hi","0.949851","0.947594",0.00225651665782944,0.04,TRUE
+"61 | alerta | último dato (10-2026, x = +2.07)","p","0.967234","0.967234",6.33552068585175e-08,0.02,TRUE
+"61 | alerta | último dato (10-2026, x = +2.07)","p_estacionario","0.617906","0.617906",-2.32599488114715e-07,0.02,TRUE
+"61 | alerta | último dato (10-2026, x = +2.07)","p_lo","0.8817","0.875607",0.00609230551076501,0.04,TRUE
+"61 | alerta | último dato (10-2026, x = +2.07)","p_hi","0.992069","0.992192",-0.000122918738331479,0.04,TRUE
+"61 | evacuación | Niña (x = −1)","p","0.167898","0.167898",-3.52028102446056e-07,0.02,TRUE
+"61 | evacuación | Niña (x = −1)","p_estacionario","0.430361","0.430361",-3.12551291403729e-07,0.02,TRUE
+"61 | evacuación | Niña (x = −1)","p_lo","0.0470907","0.0574367",-0.010345922471694,0.04,TRUE
+"61 | evacuación | Niña (x = −1)","p_hi","0.293497","0.29187",0.00162694518259127,0.04,TRUE
+"61 | evacuación | neutro (x = 0)","p","0.347424","0.347424",-2.61072144569496e-07,0.02,TRUE
+"61 | evacuación | neutro (x = 0)","p_estacionario","0.430361","0.430361",-3.12551291403729e-07,0.02,TRUE
+"61 | evacuación | neutro (x = 0)","p_lo","0.205961","0.207066",-0.00110538289963411,0.04,TRUE
+"61 | evacuación | neutro (x = 0)","p_hi","0.464006","0.460902",0.003104719506276,0.04,TRUE
+"61 | evacuación | Niño (x = +1,5)","p","0.760682","0.760682",1.65335492408047e-07,0.02,TRUE
+"61 | evacuación | Niño (x = +1,5)","p_estacionario","0.430361","0.430361",-3.12551291403729e-07,0.02,TRUE
+"61 | evacuación | Niño (x = +1,5)","p_lo","0.598275","0.580263",0.0180117835823365,0.04,TRUE
+"61 | evacuación | Niño (x = +1,5)","p_hi","0.864108","0.868703",-0.00459491653407462,0.04,TRUE
+"61 | evacuación | último dato (10-2026, x = +2.07)","p","0.891722","0.891722",2.09125567640633e-07,0.02,TRUE
+"61 | evacuación | último dato (10-2026, x = +2.07)","p_estacionario","0.430361","0.430361",-3.12551291403729e-07,0.02,TRUE
+"61 | evacuación | último dato (10-2026, x = +2.07)","p_lo","0.706035","0.693505",0.0125295870977616,0.04,TRUE
+"61 | evacuación | último dato (10-2026, x = +2.07)","p_hi","0.967652","0.966846",0.00080571588838052,0.04,TRUE
+"63 | evacuación | Niña (x = −1)","p","0.301309","0.301309",2.01129108923226e-07,0.02,TRUE
+"63 | evacuación | Niña (x = −1)","p_estacionario","0.474042","0.474042",-3.08735348397704e-08,0.02,TRUE
+"63 | evacuación | Niña (x = −1)","p_lo","0.11765","0.122449",-0.00479960944369062,0.04,TRUE
+"63 | evacuación | Niña (x = −1)","p_hi","0.454452","0.445451",0.00900126338132956,0.04,TRUE
+"63 | evacuación | neutro (x = 0)","p","0.448886","0.448886",-1.93287480243498e-07,0.02,TRUE
+"63 | evacuación | neutro (x = 0)","p_estacionario","0.474042","0.474042",-3.08735348397704e-08,0.02,TRUE
+"63 | evacuación | neutro (x = 0)","p_lo","0.297113","0.314811",-0.017697867361139,0.04,TRUE
+"63 | evacuación | neutro (x = 0)","p_hi","0.570831","0.567261",0.00356987945931164,0.04,TRUE
+"63 | evacuación | Niño (x = +1,5)","p","0.713672","0.713672",-7.87494438214686e-07,0.02,TRUE
+"63 | evacuación | Niño (x = +1,5)","p_estacionario","0.474042","0.474042",-3.08735348397704e-08,0.02,TRUE
+"63 | evacuación | Niño (x = +1,5)","p_lo","0.499134","0.524604",-0.0254698985510571,0.04,TRUE
+"63 | evacuación | Niño (x = +1,5)","p_hi","0.826723","0.816505",0.0102185691401194,0.04,TRUE
+"63 | evacuación | último dato (10-2026, x = +2.07)","p","0.806894","0.806895",-8.51772412158169e-07,0.02,TRUE
+"63 | evacuación | último dato (10-2026, x = +2.07)","p_estacionario","0.474042","0.474042",-3.08735348397704e-08,0.02,TRUE
+"63 | evacuación | último dato (10-2026, x = +2.07)","p_lo","0.527887","0.552309",-0.0244222360043594,0.04,TRUE
+"63 | evacuación | último dato (10-2026, x = +2.07)","p_hi","0.928017","0.915208",0.0128091170633792,0.04,TRUE
+"64 | alerta | Niña (x = −1)","p","0.598727","0.598727",-2.23016824896227e-07,0.02,TRUE
+"64 | alerta | Niña (x = −1)","p_estacionario","0.805074","0.805074",4.49273511726744e-08,0.02,TRUE
+"64 | alerta | Niña (x = −1)","p_lo","0.339637","0.343256",-0.0036196251739411,0.04,TRUE
+"64 | alerta | Niña (x = −1)","p_hi","0.75378","0.751133",0.00264632671637677,0.04,TRUE
+"64 | alerta | neutro (x = 0)","p","0.769348","0.769348",-9.41606854709676e-08,0.02,TRUE
+"64 | alerta | neutro (x = 0)","p_estacionario","0.805074","0.805074",4.49273511726744e-08,0.02,TRUE
+"64 | alerta | neutro (x = 0)","p_lo","0.600348","0.593575",0.00677308493997397,0.04,TRUE
+"64 | alerta | neutro (x = 0)","p_hi","0.862644","0.860163",0.00248102386106441,0.04,TRUE
+"64 | alerta | Niño (x = +1,5)","p","0.945589","0.945589",6.31956065255679e-09,0.02,TRUE
+"64 | alerta | Niño (x = +1,5)","p_estacionario","0.805074","0.805074",4.49273511726744e-08,0.02,TRUE
+"64 | alerta | Niño (x = +1,5)","p_lo","0.774025","0.765522",0.00850338232384173,0.04,TRUE
+"64 | alerta | Niño (x = +1,5)","p_hi","0.98643","0.98835",-0.00192005541022433,0.04,TRUE
+"64 | alerta | último dato (10-2026, x = +2.07)","p","0.976359","0.976359",1.04895181429754e-08,0.02,TRUE
+"64 | alerta | último dato (10-2026, x = +2.07)","p_estacionario","0.805074","0.805074",4.49273511726744e-08,0.02,TRUE
+"64 | alerta | último dato (10-2026, x = +2.07)","p_lo","0.815883","0.80711",0.00877307327203902,0.04,TRUE
+"64 | alerta | último dato (10-2026, x = +2.07)","p_hi","0.998126","0.99845",-0.000323882628708083,0.04,TRUE
+"64 | evacuación | Niña (x = −1)","p","0.317683","0.317684",-4.90848961143264e-07,0.02,TRUE
+"64 | evacuación | Niña (x = −1)","p_estacionario","0.570098","0.570098",1.47392305693828e-07,0.02,TRUE
+"64 | evacuación | Niña (x = −1)","p_lo","0.100608","0.100334",0.000274099169252071,0.04,TRUE
+"64 | evacuación | Niña (x = −1)","p_hi","0.530538","0.545062",-0.0145235759687082,0.04,TRUE
+"64 | evacuación | neutro (x = 0)","p","0.509349","0.509349",-3.23048563344308e-07,0.02,TRUE
+"64 | evacuación | neutro (x = 0)","p_estacionario","0.570098","0.570098",1.47392305693828e-07,0.02,TRUE
+"64 | evacuación | neutro (x = 0)","p_lo","0.27018","0.279611",-0.00943137966771512,0.04,TRUE
+"64 | evacuación | neutro (x = 0)","p_hi","0.686217","0.668813",0.0174039329947731,0.04,TRUE
+"64 | evacuación | Niño (x = +1,5)","p","0.815944","0.815944",1.29090059752812e-08,0.02,TRUE
+"64 | evacuación | Niño (x = +1,5)","p_estacionario","0.570098","0.570098",1.47392305693828e-07,0.02,TRUE
+"64 | evacuación | Niño (x = +1,5)","p_lo","0.542787","0.53696",0.00582746719533389,0.04,TRUE
+"64 | evacuación | Niño (x = +1,5)","p_hi","0.931287","0.934549",-0.00326255662088359,0.04,TRUE
+"64 | evacuación | último dato (10-2026, x = +2.07)","p","0.900139","0.900139",6.65745788497318e-08,0.02,TRUE
+"64 | evacuación | último dato (10-2026, x = +2.07)","p_estacionario","0.570098","0.570098",1.47392305693828e-07,0.02,TRUE
+"64 | evacuación | último dato (10-2026, x = +2.07)","p_lo","0.580268","0.587605",-0.0073366815703374,0.04,TRUE
+"64 | evacuación | último dato (10-2026, x = +2.07)","p_hi","0.979847","0.981414",-0.00156737893919257,0.04,TRUE
+"65 | alerta | Niña (x = −1)","p","0.421814","0.421814",-1.4239621171086e-07,0.02,TRUE
+"65 | alerta | Niña (x = −1)","p_estacionario","0.655155","0.655155",3.36845336068592e-08,0.02,TRUE
+"65 | alerta | Niña (x = −1)","p_lo","0.308352","0.30098",0.0073711776336518,0.04,TRUE
+"65 | alerta | Niña (x = −1)","p_hi","0.517788","0.519113",-0.00132521623281701,0.04,TRUE
+"65 | alerta | neutro (x = 0)","p","0.627545","0.627545",-7.9083446458128e-09,0.02,TRUE
+"65 | alerta | neutro (x = 0)","p_estacionario","0.655155","0.655155",3.36845336068592e-08,0.02,TRUE
+"65 | alerta | neutro (x = 0)","p_lo","0.548569","0.55025",-0.00168190137260371,0.04,TRUE
+"65 | alerta | neutro (x = 0)","p_hi","0.684512","0.690689",-0.00617716074682617,0.04,TRUE
+"65 | alerta | Niño (x = +1,5)","p","0.901911","0.901911",9.12312072554045e-08,0.02,TRUE
+"65 | alerta | Niño (x = +1,5)","p_estacionario","0.655155","0.655155",3.36845336068592e-08,0.02,TRUE
+"65 | alerta | Niño (x = +1,5)","p_lo","0.8086","0.810199",-0.0015987937143247,0.04,TRUE
+"65 | alerta | Niño (x = +1,5)","p_hi","0.951847","0.950608",0.00123929456281269,0.04,TRUE
+"65 | alerta | último dato (10-2026, x = +2.07)","p","0.958435","0.958435",6.71595240531175e-08,0.02,TRUE
+"65 | alerta | último dato (10-2026, x = +2.07)","p_estacionario","0.655155","0.655155",3.36845336068592e-08,0.02,TRUE
+"65 | alerta | último dato (10-2026, x = +2.07)","p_lo","0.868051","0.874075",-0.00602378049110086,0.04,TRUE
+"65 | alerta | último dato (10-2026, x = +2.07)","p_hi","0.989637","0.989953",-0.000316466556324779,0.04,TRUE
+"65 | evacuación | Niña (x = −1)","p","0.145896","0.145896",-1.25901515324323e-07,0.02,TRUE
+"65 | evacuación | Niña (x = −1)","p_estacionario","0.331115","0.331115",1.74222137272473e-07,0.02,TRUE
+"65 | evacuación | Niña (x = −1)","p_lo","0.0748583","0.0731647",0.00169357319932917,0.04,TRUE
+"65 | evacuación | Niña (x = −1)","p_hi","0.214258","0.220144",-0.00588640724404318,0.04,TRUE
+"65 | evacuación | neutro (x = 0)","p","0.297085","0.297085",6.86353455181532e-08,0.02,TRUE
+"65 | evacuación | neutro (x = 0)","p_estacionario","0.331115","0.331115",1.74222137272473e-07,0.02,TRUE
+"65 | evacuación | neutro (x = 0)","p_lo","0.22524","0.214002",0.0112375234753491,0.04,TRUE
+"65 | evacuación | neutro (x = 0)","p_hi","0.357122","0.361022",-0.00389923977259027,0.04,TRUE
+"65 | evacuación | Niño (x = +1,5)","p","0.653654","0.653653",5.07937072069531e-07,0.02,TRUE
+"65 | evacuación | Niño (x = +1,5)","p_estacionario","0.331115","0.331115",1.74222137272473e-07,0.02,TRUE
+"65 | evacuación | Niño (x = +1,5)","p_lo","0.503017","0.510635",-0.00761793715614356,0.04,TRUE
+"65 | evacuación | Niño (x = +1,5)","p_hi","0.767273","0.761328",0.00594472891892739,0.04,TRUE
+"65 | evacuación | último dato (10-2026, x = +2.07)","p","0.790952","0.790952",5.38598249999467e-07,0.02,TRUE
+"65 | evacuación | último dato (10-2026, x = +2.07)","p_estacionario","0.331115","0.331115",1.74222137272473e-07,0.02,TRUE
+"65 | evacuación | último dato (10-2026, x = +2.07)","p_lo","0.597482","0.621957",-0.0244746009632116,0.04,TRUE
+"65 | evacuación | último dato (10-2026, x = +2.07)","p_hi","0.907019","0.904265",0.00275469485068169,0.04,TRUE
+"67 | alerta | Niña (x = −1)","p","0.274815","0.274816",-2.66960247241599e-07,0.02,TRUE
+"67 | alerta | Niña (x = −1)","p_estacionario","0.515603","0.515603",2.04390114721953e-07,0.02,TRUE
+"67 | alerta | Niña (x = −1)","p_lo","0.181965","0.185007",-0.00304151517166262,0.04,TRUE
+"67 | alerta | Niña (x = −1)","p_hi","0.369779","0.377266",-0.00748697587883368,0.04,TRUE
+"67 | alerta | neutro (x = 0)","p","0.484466","0.484466",-1.7147392228356e-07,0.02,TRUE
+"67 | alerta | neutro (x = 0)","p_estacionario","0.515603","0.515603",2.04390114721953e-07,0.02,TRUE
+"67 | alerta | neutro (x = 0)","p_lo","0.39666","0.393562",0.00309718648282187,0.04,TRUE
+"67 | alerta | neutro (x = 0)","p_hi","0.56018","0.560028",0.000151929583962707,0.04,TRUE
+"67 | alerta | Niño (x = +1,5)","p","0.847035","0.847035",3.52686396754009e-08,0.02,TRUE
+"67 | alerta | Niño (x = +1,5)","p_estacionario","0.515603","0.515603",2.04390114721953e-07,0.02,TRUE
+"67 | alerta | Niño (x = +1,5)","p_lo","0.735013","0.723525",0.0114886365519941,0.04,TRUE
+"67 | alerta | Niño (x = +1,5)","p_hi","0.914703","0.910957",0.00374554231382696,0.04,TRUE
+"67 | alerta | último dato (10-2026, x = +2.07)","p","0.936044","0.936044",4.9391093548401e-08,0.02,TRUE
+"67 | alerta | último dato (10-2026, x = +2.07)","p_estacionario","0.515603","0.515603",2.04390114721953e-07,0.02,TRUE
+"67 | alerta | último dato (10-2026, x = +2.07)","p_lo","0.827628","0.810815",0.0168124348925145,0.04,TRUE
+"67 | alerta | último dato (10-2026, x = +2.07)","p_hi","0.981894","0.97902",0.00287381580112778,0.04,TRUE
+"67 | evacuación | Niña (x = −1)","p","0.115446","0.115446",-3.09803467990477e-07,0.02,TRUE
+"67 | evacuación | Niña (x = −1)","p_estacionario","0.293243","0.293242",2.54249214459712e-07,0.02,TRUE
+"67 | evacuación | Niña (x = −1)","p_lo","0.0593393","0.0575639",0.00177536492474531,0.04,TRUE
+"67 | evacuación | Niña (x = −1)","p_hi","0.176861","0.184085",-0.00722355416777076,0.04,TRUE
+"67 | evacuación | neutro (x = 0)","p","0.260163","0.260163",-2.84776662362596e-07,0.02,TRUE
+"67 | evacuación | neutro (x = 0)","p_estacionario","0.293243","0.293242",2.54249214459712e-07,0.02,TRUE
+"67 | evacuación | neutro (x = 0)","p_lo","0.186762","0.179646",0.00711606198807715,0.04,TRUE
+"67 | evacuación | neutro (x = 0)","p_hi","0.32816","0.332455",-0.00429557379160361,0.04,TRUE
+"67 | evacuación | Niño (x = +1,5)","p","0.647712","0.647712",6.97704598540128e-08,0.02,TRUE
+"67 | evacuación | Niño (x = +1,5)","p_estacionario","0.293243","0.293242",2.54249214459712e-07,0.02,TRUE
+"67 | evacuación | Niño (x = +1,5)","p_lo","0.48604","0.476283",0.00975730524150864,0.04,TRUE
+"67 | evacuación | Niño (x = +1,5)","p_hi","0.756512","0.75392",0.00259201155354016,0.04,TRUE
+"67 | evacuación | último dato (10-2026, x = +2.07)","p","0.802729","0.802729",1.75627738796535e-07,0.02,TRUE
+"67 | evacuación | último dato (10-2026, x = +2.07)","p_estacionario","0.293243","0.293242",2.54249214459712e-07,0.02,TRUE
+"67 | evacuación | último dato (10-2026, x = +2.07)","p_lo","0.612706","0.607876",0.00483013642240826,0.04,TRUE
+"67 | evacuación | último dato (10-2026, x = +2.07)","p_hi","0.906502","0.90642",8.1512765250813e-05,0.04,TRUE
+"68 | alerta | Niña (x = −1)","p","0.365857","0.365857",8.08083818748528e-08,0.02,TRUE
+"68 | alerta | Niña (x = −1)","p_estacionario","0.583639","0.583639",-3.67939486656255e-08,0.02,TRUE
+"68 | alerta | Niña (x = −1)","p_lo","0.267647","0.268317",-0.000670237475990543,0.04,TRUE
+"68 | alerta | Niña (x = −1)","p_hi","0.465497","0.466569",-0.00107224126115851,0.04,TRUE
+"68 | alerta | neutro (x = 0)","p","0.564358","0.564358",5.63048714319336e-08,0.02,TRUE
+"68 | alerta | neutro (x = 0)","p_estacionario","0.583639","0.583639",-3.67939486656255e-08,0.02,TRUE
+"68 | alerta | neutro (x = 0)","p_lo","0.48689","0.490261",-0.00337142605589513,0.04,TRUE
+"68 | alerta | neutro (x = 0)","p_hi","0.629772","0.632404",-0.00263228310524199,0.04,TRUE
+"68 | alerta | Niño (x = +1,5)","p","0.86815","0.86815",-4.15403600406705e-10,0.02,TRUE
+"68 | alerta | Niño (x = +1,5)","p_estacionario","0.583639","0.583639",-3.67939486656255e-08,0.02,TRUE
+"68 | alerta | Niño (x = +1,5)","p_lo","0.774038","0.76",0.0140387138376693,0.04,TRUE
+"68 | alerta | Niño (x = +1,5)","p_hi","0.922897","0.922149",0.000748304316976145,0.04,TRUE
+"68 | alerta | último dato (10-2026, x = +2.07)","p","0.940814","0.940814",-8.93373497401484e-09,0.02,TRUE
+"68 | alerta | último dato (10-2026, x = +2.07)","p_estacionario","0.583639","0.583639",-3.67939486656255e-08,0.02,TRUE
+"68 | alerta | último dato (10-2026, x = +2.07)","p_lo","0.843025","0.831841",0.0111838147280228,0.04,TRUE
+"68 | alerta | último dato (10-2026, x = +2.07)","p_hi","0.979465","0.980716",-0.0012509452958831,0.04,TRUE
+"68 | evacuación | Niña (x = −1)","p","0.205455","0.205455",1.06730780657927e-07,0.02,TRUE
+"68 | evacuación | Niña (x = −1)","p_estacionario","0.392568","0.392568",-6.22884754886144e-08,0.02,TRUE
+"68 | evacuación | Niña (x = −1)","p_lo","0.136904","0.137671",-0.000767680206978094,0.04,TRUE
+"68 | evacuación | Niña (x = −1)","p_hi","0.279816","0.284879",-0.00506271238494121,0.04,TRUE
+"68 | evacuación | neutro (x = 0)","p","0.370737","0.370737",9.84578493179455e-08,0.02,TRUE
+"68 | evacuación | neutro (x = 0)","p_estacionario","0.392568","0.392568",-6.22884754886144e-08,0.02,TRUE
+"68 | evacuación | neutro (x = 0)","p_lo","0.294157","0.299691",-0.00553396257924788,0.04,TRUE
+"68 | evacuación | neutro (x = 0)","p_hi","0.436802","0.439937",-0.00313524342107824,0.04,TRUE
+"68 | evacuación | Niño (x = +1,5)","p","0.720147","0.720147",1.68111079501543e-08,0.02,TRUE
+"68 | evacuación | Niño (x = +1,5)","p_estacionario","0.392568","0.392568",-6.22884754886144e-08,0.02,TRUE
+"68 | evacuación | Niño (x = +1,5)","p_lo","0.600963","0.579033",0.0219306873337601,0.04,TRUE
+"68 | evacuación | Niño (x = +1,5)","p_hi","0.807138","0.804021",0.00311741558161271,0.04,TRUE
+"68 | evacuación | último dato (10-2026, x = +2.07)","p","0.842101","0.842101",-1.24439283322175e-08,0.02,TRUE
+"68 | evacuación | último dato (10-2026, x = +2.07)","p_estacionario","0.392568","0.392568",-6.22884754886144e-08,0.02,TRUE
+"68 | evacuación | último dato (10-2026, x = +2.07)","p_lo","0.702686","0.679309",0.0233772252132519,0.04,TRUE
+"68 | evacuación | último dato (10-2026, x = +2.07)","p_hi","0.92235","0.924751",-0.00240018230950956,0.04,TRUE

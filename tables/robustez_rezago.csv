@@ -1,0 +1,2 @@
+"prueba","regla","valor","pasa"
+"6 rezago de tres meses","el IC90 de la b del conjunto con el índice rezagado excluye el 0","b = 0.335 [0.113, 0.564]; cor(x6, x6 rezagado) = 0.853",TRUE

@@ -1,0 +1,4 @@
+data/geo/ne_10m_*/
+*.Rhistory
+.RData
+corrida_*.log
