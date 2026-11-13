@@ -1,0 +1,14 @@
+{
+  "title": "Code and data for: El Niño and the annual probability of reaching the alert and evacuation levels in the towns of the middle Uruguay River",
+  "upload_type": "software",
+  "description": "R code, input series and derived tables for an article submitted to Atmósfera. For seven gauges of the Uruguay River in Misiones and Corrientes (Argentina), a Poisson process with a rate that depends on the Niño 3.4 index and a generalised Pareto distribution for flood height give the annual probability of reaching each official alert and evacuation level.",
+  "creators": [
+    {
+      "name": "Gómez, Raimundo Elías",
+      "affiliation": "Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) / Facultad de Humanidades y Ciencias Sociales, Universidad Nacional de Misiones (UNaM)",
+      "orcid": "0000-0002-4468-9618"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["El Niño", "floods", "Uruguay River", "peaks over threshold", "alert levels", "Misiones"]
+}

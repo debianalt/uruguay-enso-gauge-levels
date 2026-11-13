@@ -1,6 +1,7 @@
 # El Niño and the annual probability of reaching alert and evacuation levels on the middle Uruguay River
 
-Code and data for the article of the same title (submitted to *Atmósfera*). For seven gauges of the Uruguay River in
+Code and data for the article of the same title (submitted to *Atmósfera*), by Raimundo Elías Gómez
+(CONICET / FHyCS-UNaM, ORCID [0000-0002-4468-9618](https://orcid.org/0000-0002-4468-9618)). For seven gauges of the Uruguay River in
 Misiones and Corrientes (Argentina), the analysis fits a Poisson process for flood frequency, with a rate that depends
 on the Niño 3.4 index, and a generalised Pareto distribution for flood height. It then gives the annual probability of
 reaching each official alert and evacuation level for several index values.
