@@ -2,12 +2,15 @@
 
 Code and data for the article of the same title (submitted to *Atmósfera*), by Raimundo Elías Gómez
 (CONICET / FHyCS-UNaM, ORCID [0000-0002-4468-9618](https://orcid.org/0000-0002-4468-9618)).
-Archived in Zenodo: [10.5281/zenodo.24205328](https://doi.org/10.5281/zenodo.24205328) (v1.0.0, as submitted). For seven gauges of the Uruguay River in
+Archived in Zenodo: [10.5281/zenodo.24205327](https://doi.org/10.5281/zenodo.24205327) (all versions; v1.1.0 is the version submitted). For seven gauges of the Uruguay River in
 Misiones and Corrientes (Argentina), the analysis fits a Poisson process for flood frequency, with a rate that depends
 on the Niño 3.4 index, and a generalised Pareto distribution for flood height. It then gives the annual probability of
 reaching each official alert and evacuation level for several index values.
 
 Every number in the article comes from a CSV file in `tables/`. Comments in the scripts are in Spanish.
+
+The decision rule of each robustness test was written before the test was run. The rules are reproduced verbatim,
+in Spanish and with their dates, in `docs/pre_specified_rules.md`.
 
 ## Requirements
 
@@ -22,6 +25,7 @@ Rscript scripts/frecuencia.R            # fit per gauge and pooled, bootstrap (s
 Rscript scripts/frecuencia_sola.R       # probabilities with d = 0 -> Table II, Table S7
 Rscript scripts/robustez.R              # flood definition, dams, trend, constancy of the relationship
 Rscript scripts/robustez_indice.R       # index windows, ERSST, lagged index, 90% profile intervals
+Rscript scripts/robustez_estacion.R     # seasonal cycle: two monthly harmonics in the rate (about 75 min)
 Rscript scripts/calibracion.R           # calibration and Poisson dispersion (Tables S2, S3)
 Rscript scripts/calibracion_garruchos.R # diagnosis of the Garruchos alert level (Table S4)
 Rscript scripts/figuras.R               # Figures 1-4 and the graphical abstract

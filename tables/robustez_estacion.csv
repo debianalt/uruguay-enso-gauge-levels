@@ -1,0 +1,2 @@
+"caso","hidrometros","n_eventos","b","b_boot_lo","b_boot_hi","b_sin_estacion","s1","c1","s2","c2","lr_armonicos","p_armonicos","convergencia","pasa","dentro_ic_principal"
+"with annual cycle (two harmonics)",7,657,0.621113914303424,0.382119228114469,0.851429076307712,0.51702835346803,-1.04542190278479,-0.737273811961572,-0.573595470995223,0.137560961705831,322.030563627356,1.91208672694911e-68,0,TRUE,TRUE

@@ -3,6 +3,8 @@
 #   Fig2  cómo se define una crecida: un año de El Niño y un año neutro en San Javier
 #   Fig3  probabilidad anual de alcanzar la cota de evacuación en función del Niño 3.4
 #   Fig4  la relación con El Niño (b) bajo cada prueba de robustez
+#   graphical_abstract: el mapa con la probabilidad de evacuación en 0 y +1,5 °C (13-nov-2026); no es figura del
+#   cuerpo. El fondo del mapa es mapa_base(), común a la Fig1 y al resumen gráfico.
 #
 # Usa el modelo y el remuestreo de scripts/modelo.R, los mismos de scripts/frecuencia.R. Lo que se dibuja sale de
 # tables/ o se escribe ahí (fig2_*.csv, fig3_curva.csv, fig4_b.csv). Controles que cortan la corrida:
@@ -42,7 +44,9 @@ etiquetas <- data.frame(
   x = c(-53.3, -56.55, -56.75, -54.75, -56.75), y = c(-27.85, -26.6, -28.85, -26.75, -28.35),
   t = c("BRAZIL", "PARAGUAY", "ARGENTINA", "Misiones", "Corrientes"), tipo = c("pais", "pais", "pais", "prov", "prov"))
 
-mapa <- ggplot() +
+# fondo del mapa (tierra, provincias foco, ríos, rótulos de país y provincia), común a la Fig1 y al resumen gráfico
+mapa_base <- function(caja, etiquetas, rio_uy_xy = c(-53.05, -27.0), parana_xy = c(-55.62, -27.2)) {
+  ggplot() +
   geom_sf(data = paises, fill = TIERRA, colour = NA) +
   geom_sf(data = foco, fill = TIERRA_FOCO, colour = NA) +
   geom_sf(data = foco, fill = NA, colour = "white", linewidth = 0.4) +
@@ -54,9 +58,17 @@ mapa <- ggplot() +
             family = "sans", fontface = "plain") +
   geom_text(data = etiquetas[etiquetas$tipo == "prov", ], aes(x, y, label = t), colour = SECUNDARIA, size = 2.7,
             fontface = "italic") +
-  annotate("text", x = -53.05, y = -27.0, label = "Uruguay River", colour = AGUA, size = 2.7, fontface = "italic") +
-  annotate("text", x = -55.62, y = -27.2, label = "Paraná River", colour = "#7fa8c6", size = 2.5, fontface = "italic",
-           angle = 33) +
+  annotate("text", x = rio_uy_xy[1], y = rio_uy_xy[2], label = "Uruguay River", colour = AGUA, size = 2.7,
+           fontface = "italic") +
+  annotate("text", x = parana_xy[1], y = parana_xy[2], label = "Paraná River", colour = "#7fa8c6", size = 2.5,
+           fontface = "italic", angle = 33) +
+  coord_sf(xlim = caja[c("xmin", "xmax")], ylim = caja[c("ymin", "ymax")], expand = FALSE) +
+  labs(x = NULL, y = NULL) + tema() +
+  theme(panel.background = element_rect(fill = "white", colour = NA), panel.grid.major = element_blank(),
+        panel.border = element_rect(fill = NA, colour = TENUE, linewidth = 0.3), axis.line = element_blank())
+}
+
+mapa <- mapa_base(caja, etiquetas) +
   geom_point(data = hid, aes(lon, lat), shape = 21, fill = "white", colour = TINTA, size = 2.1, stroke = 0.7) +
   geom_text(data = hid, aes(lon + 0.11, lat - 0.085, label = rotulo), size = 2.75, colour = TINTA, hjust = 0,
             vjust = 0.5) +
@@ -64,11 +76,7 @@ mapa <- ggplot() +
            colour = TINTA, linewidth = 0.5) +
   annotate("text", x = -55.2 + km50 / 2, y = caja["ymin"] + 0.33, label = "50 km", size = 2.5,
            colour = TINTA) +
-  coord_sf(xlim = caja[c("xmin", "xmax")], ylim = caja[c("ymin", "ymax")], expand = FALSE) +
-  scale_x_continuous(breaks = seq(-57, -53, 1)) + scale_y_continuous(breaks = seq(-29, -27, 1)) +
-  labs(x = NULL, y = NULL) + tema() +
-  theme(panel.background = element_rect(fill = "white", colour = NA), panel.grid.major = element_blank(),
-        panel.border = element_rect(fill = NA, colour = TENUE, linewidth = 0.3), axis.line = element_blank())
+  scale_x_continuous(breaks = seq(-57, -53, 1)) + scale_y_continuous(breaks = seq(-29, -27, 1))
 
 situacion <- ggplot() +
   geom_sf(data = sa, fill = "#e9e6e0", colour = "white", linewidth = 0.15) +
@@ -195,8 +203,42 @@ fig3 <- ggplot(cv, aes(x, p * 100)) +
   labs(x = "Niño 3.4 index, six-month mean (°C)",
        y = "Annual probability of reaching the evacuation level (%)") + tema()
 guardar(fig3, 3, alto_cm = 12.5)
-# propuesta de graphical abstract (pauta de Atmósfera: 13 × 10 cm), la misma figura
-guardar(fig3, "graphical_abstract", alto_cm = 10, ancho_cm = 13)
+
+# ------------------------------------------------------------------- graphical abstract: el mapa
+# (13-nov-2026; elegido por el autor esa noche en lugar de la Fig3 reducida) probabilidad de alcanzar la cota de evacuación con el índice en 0 y en +1,5 °C, de la Tabla II.
+# Llevan número sólo los cuatro hidrómetros de la Fig3 (SIDS), los que sostienen la relación solos; Alba Posse,
+# Panambí y Pepirí Miní van como punto con nombre. Puntos sobre el río, nunca áreas: la unidad es el hidrómetro.
+ga_t <- tabla[tabla$nivel == "evacuación" & tabla$serie %in% SIDS & tabla$x %in% c(0, 1.5), ]
+stopifnot(nrow(ga_t) == 2 * length(SIDS))
+pct <- function(sid, x) sprintf("%.0f%%", 100 * ga_t$p_frec[ga_t$serie == sid & ga_t$x == x])
+ga <- hid
+ga$con_num <- ga$serie %in% SIDS
+ga$nom <- ifelse(ga$serie == 67, paste0(ga$nombre, "†"), ga$nombre)
+ga$l1 <- ifelse(is.na(ga$evacuacion_m), ga$nom, sprintf("%s · %s m", ga$nom, punto(ga$evacuacion_m)))
+ga$l2 <- ifelse(ga$con_num, vapply(ga$serie, function(s) paste(pct(s, 0), "→", pct(s, 1.5)), ""), NA)
+caja_ga <- c(xmin = -56.75, xmax = -52.85, ymin = -29.05, ymax = -26.75)
+etq_ga <- data.frame(x = c(-53.35, -56.35, -55.75, -56.35), y = c(-28.75, -26.95, -27.55, -28.25),
+                     t = c("BRAZIL", "PARAGUAY", "Misiones", "Corrientes"), tipo = c("pais", "pais", "prov", "prov"))
+# rótulos abajo a la derecha del punto (lado brasileño, perpendicular al cauce, que corre de SO a NE)
+dx <- 0.07; dy <- 0.05; dl <- 0.10
+gab <- mapa_base(caja_ga, etq_ga, rio_uy_xy = c(-53.2, -26.97), parana_xy = c(-56.0, -27.35)) +
+  geom_point(data = ga, aes(lon, lat, fill = con_num), shape = 21, colour = TINTA, size = 2.3, stroke = 0.7) +
+  scale_fill_manual(values = c(`TRUE` = AGUA, `FALSE` = "white")) +
+  geom_text(data = ga, aes(lon + dx, lat - dy, label = l1), size = 2.75, colour = TINTA, hjust = 0, vjust = 1) +
+  geom_text(data = ga[ga$con_num, ], aes(lon + dx, lat - dy - dl, label = l2), size = 3.1, colour = AGUA,
+            fontface = "bold", hjust = 0, vjust = 1) +
+  scale_x_continuous(breaks = NULL) + scale_y_continuous(breaks = NULL) +
+  labs(title = "Annual probability of reaching the evacuation level",
+       subtitle = "Niño 3.4 index (six-month mean) at 0 °C  →  at +1.5 °C",
+       caption = paste("Conditional on the index over a whole hydrological year; not a forecast.",
+                       "Open circles: no official level, or the relationship does not hold at the gauge alone.",
+                       "† Series not homogeneous at high water.", sep = "\n")) +
+  theme(plot.title = element_text(size = BASE_PT + 1, face = "bold", colour = TINTA, margin = margin(b = 2)),
+        plot.subtitle = element_text(size = BASE_PT - 0.5, colour = AGUA, margin = margin(b = 4)),
+        plot.caption = element_text(size = BASE_PT - 1.5, colour = SECUNDARIA, hjust = 0, lineheight = 1.1),
+        plot.title.position = "plot", plot.caption.position = "plot")
+guardar(gab, "graphical_abstract", alto_cm = 10, ancho_cm = 13)
+cat("Resumen gráfico (mapa):", paste(ga$nombre[ga$con_num], ga$l2[ga$con_num], collapse = "; "), "\n")
 
 # ------------------------------------------------------------ Fig4: b bajo cada prueba de robustez (conjunto)
 lee <- function(f) read.csv(file.path("tables", f), fileEncoding = "UTF-8")
@@ -204,7 +246,7 @@ aj <- lee("ajuste.csv"); pr <- aj[aj$serie == "uruguay_conjunto" & aj$variante =
 um <- lee("robustez_umbral.csv"); um <- um[um$serie == "uruguay_conjunto", ]
 re <- lee("robustez_represas.csv"); re <- re[re$serie == "uruguay_conjunto" & re$corte == "2000-03-01", ]
 te <- lee("robustez_tendencia.csv"); t65 <- lee("robustez_tendencia_desde1965.csv")
-k <- lee("robustez_1930_1966.csv"); av <- lee("robustez_1941_1982.csv")
+k <- lee("robustez_1930_1966.csv"); av <- lee("robustez_1941_1982.csv"); es <- lee("robustez_estacion.csv")
 ix <- lee("robustez_indice.csv"); ixf <- function(col) ix[ix$indice == col & ix$desde == "", ]
 ix48 <- function(col) ix[ix$indice == col & ix$desde != "", ]
 um <- um[!(um$percentil == 98 & um$dias == 10), ]     # es el ajuste principal: no se repite (12-nov-2026)
@@ -221,6 +263,7 @@ fb <- rbind(
   fila("River\nregulation", "from March 2000", re$b_despues, re$b_despues_lo, re$b_despues_hi, re$n_despues),
   fila("Trend", "with time term", te$b, te$b_boot_lo, te$b_boot_hi, pr$n_eventos),
   fila("Trend", "with time term, from 1965", t65$b, t65$b_boot_lo, t65$b_boot_hi, t65$n_eventos),
+  fila("Season", "annual cycle, two harmonics", es$b, es$b_boot_lo, es$b_boot_hi, es$n_eventos),
   fila("Constancy of\nthe relationship", "1930–1966", k$b_1, k$b_1_lo, k$b_1_hi, k$n_1),
   fila("Constancy of\nthe relationship", "from 1967", k$b_2, k$b_2_lo, k$b_2_hi, k$n_2),
   fila("Constancy of\nthe relationship", "1941–1982", av$b_1, av$b_1_lo, av$b_1_hi, av$n_1),
@@ -245,4 +288,4 @@ fig4 <- ggplot(fb, aes(b, reorder(rot, orden))) +
                                                                       margin = margin(r = 6)),
         panel.grid.major.y = element_blank(), axis.text.y = element_text(colour = TINTA, size = BASE_PT - 1),
         axis.line.y = element_blank(), axis.ticks.y = element_blank(), panel.spacing = unit(7, "pt"))
-guardar(fig4, 4, alto_cm = 11.5)
+guardar(fig4, 4, alto_cm = 12.2)
