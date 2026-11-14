@@ -217,8 +217,9 @@ ga$nom <- ifelse(ga$serie == 67, paste0(ga$nombre, "†"), ga$nombre)
 ga$l1 <- ifelse(is.na(ga$evacuacion_m), ga$nom, sprintf("%s · %s m", ga$nom, punto(ga$evacuacion_m)))
 ga$l2 <- ifelse(ga$con_num, vapply(ga$serie, function(s) paste(pct(s, 0), "→", pct(s, 1.5)), ""), NA)
 caja_ga <- c(xmin = -56.75, xmax = -52.85, ymin = -29.05, ymax = -26.75)
-etq_ga <- data.frame(x = c(-53.35, -56.35, -55.75, -56.35), y = c(-28.75, -26.95, -27.55, -28.25),
-                     t = c("BRAZIL", "PARAGUAY", "Misiones", "Corrientes"), tipo = c("pais", "pais", "prov", "prov"))
+etq_ga <- data.frame(x = c(-53.35, -56.35, -55.0, -55.75, -56.35), y = c(-28.75, -26.95, -27.2, -27.55, -28.25),
+                     t = c("BRAZIL", "PARAGUAY", "ARGENTINA", "Misiones", "Corrientes"),
+                     tipo = c("pais", "pais", "pais", "prov", "prov"))
 # rótulos abajo a la derecha del punto (lado brasileño, perpendicular al cauce, que corre de SO a NE)
 dx <- 0.07; dy <- 0.05; dl <- 0.10
 gab <- mapa_base(caja_ga, etq_ga, rio_uy_xy = c(-53.2, -26.97), parana_xy = c(-56.0, -27.35)) +
@@ -230,7 +231,8 @@ gab <- mapa_base(caja_ga, etq_ga, rio_uy_xy = c(-53.2, -26.97), parana_xy = c(-5
   scale_x_continuous(breaks = NULL) + scale_y_continuous(breaks = NULL) +
   labs(title = "Annual probability of reaching the evacuation level",
        subtitle = "Niño 3.4 index (six-month mean) at 0 °C  →  at +1.5 °C",
-       caption = paste("Conditional on the index over a whole hydrological year; not a forecast.",
+       caption = paste("Argentine gauges on the Uruguay River, the Argentina–Brazil border. Conditional on the index over a",
+                       "whole hydrological year; not a forecast.",
                        "Open circles: no official level, or the relationship does not hold at the gauge alone.",
                        "† Series not homogeneous at high water.", sep = "\n")) +
   theme(plot.title = element_text(size = BASE_PT + 1, face = "bold", colour = TINTA, margin = margin(b = 2)),
