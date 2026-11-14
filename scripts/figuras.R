@@ -3,8 +3,7 @@
 #   Fig2  cómo se define una crecida: un año de El Niño y un año neutro en San Javier
 #   Fig3  probabilidad anual de alcanzar la cota de evacuación en función del Niño 3.4
 #   Fig4  la relación con El Niño (b) bajo cada prueba de robustez
-#   graphical_abstract: el mapa con la probabilidad de evacuación en 0 y +1,5 °C (13-nov-2026); no es figura del
-#   cuerpo. El fondo del mapa es mapa_base(), común a la Fig1 y al resumen gráfico.
+#   graphical_abstract: la Figura 3 a 13 × 10 cm (pauta: «a figure … from the manuscript»; 13-nov-2026). El fondo del mapa es mapa_base(), común a la Fig1 y al resumen gráfico.
 #
 # Usa el modelo y el remuestreo de scripts/modelo.R, los mismos de scripts/frecuencia.R. Lo que se dibuja sale de
 # tables/ o se escribe ahí (fig2_*.csv, fig3_curva.csv, fig4_b.csv). Controles que cortan la corrida:
@@ -186,61 +185,29 @@ union <- do.call(rbind, lapply(split(cv, cv$panel), function(d) {
 }))
 dentro <- rbind(cv[!cv$fuera, c("panel", "x", "p")], union); dentro <- dentro[order(dentro$panel, dentro$x), ]
 afuera <- rbind(union, cv[cv$fuera, c("panel", "x", "p")]); afuera <- afuera[order(afuera$panel, afuera$x), ]
-fig3 <- ggplot(cv, aes(x, p * 100)) +
+# ga = TRUE: la misma figura para el resumen gráfico (13 × 10 cm, «from the manuscript»), con los dos
+# rótulos corridos para que no se corten ni pisen la línea a ese tamaño
+hacer_fig3 <- function(ga = FALSE) {
+  ggplot(cv, aes(x, p * 100)) +
   annotate("rect", xmin = x_tope, xmax = Inf, ymin = 0, ymax = 100, fill = TINTA, alpha = 0.045) +
   geom_vline(xintercept = x_ult, colour = TENUE, linewidth = 0.3, linetype = "dashed") +
   geom_ribbon(aes(ymin = p_lo * 100, ymax = p_hi * 100), fill = BANDA) +
   geom_line(data = dentro, colour = TINTA, linewidth = 0.6) +
   geom_line(data = afuera, colour = TINTA, linewidth = 0.6, linetype = "22") +
-  geom_text(data = marca_tope, aes(x, y, label = t), size = 2.5, colour = SECUNDARIA, hjust = -0.06, lineheight = 0.9) +
+  geom_text(data = marca_tope, aes(x, y, label = t), size = 2.5, colour = SECUNDARIA, hjust = if (ga) 1.06 else -0.06, lineheight = 0.9) +
   geom_point(data = ct, aes(x, tabla * 100), shape = 21, fill = "white", colour = TINTA, size = 1.7, stroke = 0.6) +
   geom_text(data = ct, aes(x, tabla * 100, label = lab), size = 2.6, colour = TINTA, hjust = 1.35, vjust = -0.35) +
-  geom_text(data = marca, aes(x, y, label = t), size = 2.5, colour = SECUNDARIA, hjust = 1.08, lineheight = 0.9) +
+  geom_text(data = marca, aes(x, y, label = t), size = 2.5, colour = SECUNDARIA, hjust = if (ga) 1.22 else 1.08, lineheight = 0.9) +
   facet_wrap(~panel, nrow = 2) +
   scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 25), expand = c(0, 0)) +
   scale_x_continuous(breaks = seq(-1, 2, 1), labels = function(v) sub("^([1-9])", "+\\1", sub("-", "–", format(v))),
                      expand = c(0.01, 0)) +
   labs(x = "Niño 3.4 index, six-month mean (°C)",
        y = "Annual probability of reaching the evacuation level (%)") + tema()
+}
+fig3 <- hacer_fig3()
 guardar(fig3, 3, alto_cm = 12.5)
-
-# ------------------------------------------------------------------- graphical abstract: el mapa
-# (13-nov-2026; elegido por el autor esa noche en lugar de la Fig3 reducida) probabilidad de alcanzar la cota de evacuación con el índice en 0 y en +1,5 °C, de la Tabla II.
-# Llevan número sólo los cuatro hidrómetros de la Fig3 (SIDS), los que sostienen la relación solos; Alba Posse,
-# Panambí y Pepirí Miní van como punto con nombre. Puntos sobre el río, nunca áreas: la unidad es el hidrómetro.
-ga_t <- tabla[tabla$nivel == "evacuación" & tabla$serie %in% SIDS & tabla$x %in% c(0, 1.5), ]
-stopifnot(nrow(ga_t) == 2 * length(SIDS))
-pct <- function(sid, x) sprintf("%.0f%%", 100 * ga_t$p_frec[ga_t$serie == sid & ga_t$x == x])
-ga <- hid
-ga$con_num <- ga$serie %in% SIDS
-ga$nom <- ifelse(ga$serie == 67, paste0(ga$nombre, "†"), ga$nombre)
-ga$l1 <- ifelse(is.na(ga$evacuacion_m), ga$nom, sprintf("%s · %s m", ga$nom, punto(ga$evacuacion_m)))
-ga$l2 <- ifelse(ga$con_num, vapply(ga$serie, function(s) paste(pct(s, 0), "→", pct(s, 1.5)), ""), NA)
-caja_ga <- c(xmin = -56.75, xmax = -52.85, ymin = -29.05, ymax = -26.75)
-etq_ga <- data.frame(x = c(-53.35, -56.35, -55.0, -55.75, -56.35), y = c(-28.75, -26.95, -27.2, -27.55, -28.25),
-                     t = c("BRAZIL", "PARAGUAY", "ARGENTINA", "Misiones", "Corrientes"),
-                     tipo = c("pais", "pais", "pais", "prov", "prov"))
-# rótulos abajo a la derecha del punto (lado brasileño, perpendicular al cauce, que corre de SO a NE)
-dx <- 0.07; dy <- 0.05; dl <- 0.10
-gab <- mapa_base(caja_ga, etq_ga, rio_uy_xy = c(-53.2, -26.97), parana_xy = c(-56.0, -27.35)) +
-  geom_point(data = ga, aes(lon, lat, fill = con_num), shape = 21, colour = TINTA, size = 2.3, stroke = 0.7) +
-  scale_fill_manual(values = c(`TRUE` = AGUA, `FALSE` = "white")) +
-  geom_text(data = ga, aes(lon + dx, lat - dy, label = l1), size = 2.75, colour = TINTA, hjust = 0, vjust = 1) +
-  geom_text(data = ga[ga$con_num, ], aes(lon + dx, lat - dy - dl, label = l2), size = 3.1, colour = AGUA,
-            fontface = "bold", hjust = 0, vjust = 1) +
-  scale_x_continuous(breaks = NULL) + scale_y_continuous(breaks = NULL) +
-  labs(title = "Annual probability of reaching the evacuation level",
-       subtitle = "Niño 3.4 index (six-month mean) at 0 °C  →  at +1.5 °C",
-       caption = paste("Argentine gauges on the Uruguay River, the Argentina–Brazil border. Conditional on the index over a",
-                       "whole hydrological year; not a forecast.",
-                       "Open circles: no official level, or the relationship does not hold at the gauge alone.",
-                       "† Series not homogeneous at high water.", sep = "\n")) +
-  theme(plot.title = element_text(size = BASE_PT + 1, face = "bold", colour = TINTA, margin = margin(b = 2)),
-        plot.subtitle = element_text(size = BASE_PT - 0.5, colour = AGUA, margin = margin(b = 4)),
-        plot.caption = element_text(size = BASE_PT - 1.5, colour = SECUNDARIA, hjust = 0, lineheight = 1.1),
-        plot.title.position = "plot", plot.caption.position = "plot")
-guardar(gab, "graphical_abstract", alto_cm = 10, ancho_cm = 13)
-cat("Resumen gráfico (mapa):", paste(ga$nombre[ga$con_num], ga$l2[ga$con_num], collapse = "; "), "\n")
+guardar(hacer_fig3(ga = TRUE), "graphical_abstract", alto_cm = 10, ancho_cm = 13)
 
 # ------------------------------------------------------------ Fig4: b bajo cada prueba de robustez (conjunto)
 lee <- function(f) read.csv(file.path("tables", f), fileEncoding = "UTF-8")
